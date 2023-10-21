@@ -676,23 +676,79 @@ ol {
     font-family: var(--poppins);
     color: var(--Paragraph-Color);
 }
-.destination_three_photo{
+
+.accordion-item {
+    width: 420px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(0, 127, 95, 0.1);
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.collapsed .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid var(--brand_color);
+    margin-right: 11px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--brand_color);
+    border: 1px solid var(--brand_color);
+    margin-right: 11px;
+}
+
+.accordion-button {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--Primary-Color);
+}
+
+.accordion-button::after {
+    margin-left: 11px;
+}
+
+.accordion_text {
+    width: 318px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--Open_Sans);
+    color: var(--Paragraph-Color);
+    line-height: 28px;
+}
+
+.destination_three_photo {
     width: 570px;
     position: relative;
 }
 
-.destination_three_list{
+.destination_three_list {
     position: absolute;
     top: 67%;
     left: 50px;
 }
 
-.destination_three_list ul{
+.destination_three_list ul {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-.destination_three_list ul .list_1{
+
+.destination_three_list ul .list_1 {
     width: 232px;
     height: 52px;
     padding: 12px 25px 12px 20px;
@@ -700,7 +756,8 @@ ol {
     border-radius: 8px;
     box-shadow: 0px 12px 16px 0px rgba(0, 0, 0, 0.08);
 }
-.destination_three_list ul .list_2{
+
+.destination_three_list ul .list_2 {
     width: 244px;
     height: 52px;
     padding: 12px 25px 12px 20px;
@@ -709,7 +766,8 @@ ol {
     box-shadow: 0px 12px 16px 0px rgba(0, 0, 0, 0.08);
     margin-left: 50px;
 }
-.destination_three_list ul .list_3{
+
+.destination_three_list ul .list_3 {
     width: 310px;
     height: 52px;
     padding: 12px 20px 12px 20px;
@@ -717,12 +775,14 @@ ol {
     border-radius: 8px;
     box-shadow: 0px 12px 16px 0px rgba(0, 0, 0, 0.08);
 }
-.destination_three_list ul li p{
+
+.destination_three_list ul li p {
     font-size: 16px;
     font-weight: 400;
     font-family: var(--Open_Sans);
     color: var(--Paragraph-Color);
 }
+
 /* ------------ selected destination link css part end ------------ */
 /* =========== fonts link css part start =========== */
 
