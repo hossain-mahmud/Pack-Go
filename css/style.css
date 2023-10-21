@@ -1,0 +1,738 @@
+/* =========== fonts link css part start =========== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* ------------ fonts link css part end ------------ */
+/* =========== variable css part start =========== */
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --nunito: 'Nunito Sans', sans-serif;
+    --Open_Sans: 'Open Sans', sans-serif;
+    --brand_color: #007F5F;
+    --Primary-Color: #1E1E1E;
+    --Paragraph-Color: #616161;
+}
+
+/* ------------ variable css part end ------------ */
+/* =========== coomon css part start =========== */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------ coomon css part end ------------ */
+/* =========== main menu css part start =========== */
+.main_menu ul li a {
+    font-size: 16px;
+    font-family: var(--poppins);
+    font-weight: 400;
+    color: var(--Paragraph-Color) !important;
+}
+
+.main_menu ul li a:hover {
+    color: var(--brand_color) !important;
+}
+
+.main_menu .menu_button a {
+    width: 150px;
+    height: 56px;
+    border-radius: 17px;
+    background: var(--brand_color);
+    text-align: center;
+    line-height: 56px;
+    color: #fff;
+    font-family: var(--poppins);
+    font-weight: 600;
+    border: 1px solid var(--brand_color);
+    transition: all linear .3s;
+}
+
+.main_menu .menu_button a:hover {
+    background: transparent;
+    color: var(--brand_color);
+}
+
+/* ------------ main menu css part end ------------ */
+/* =========== banner css part start =========== */
+#banner {
+    background: url(../images/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 147px;
+    padding-bottom: 122px;
+    position: relative;
+    z-index: 1;
+}
+
+#banner::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.40);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#banner .banner_text h1 {
+    width: 573px;
+    font-size: 65px;
+    color: #fff;
+    font-family: var(--poppins);
+    font-weight: 600;
+    margin-bottom: 29px;
+}
+
+#banner .banner_text p {
+    width: 582px;
+    font-size: 16px;
+    font-family: var(--poppins);
+    font-weight: 400;
+    color: #fff;
+}
+
+.banner_button a {
+    margin-top: 40px;
+    width: 180px;
+    height: 56px;
+    border-radius: 17px;
+    background: var(--brand_color);
+    font-size: 16px;
+    font-family: var(--poppins);
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    line-height: 56px;
+    transition: all linear .3s;
+    margin-bottom: 60px;
+}
+
+.banner_button a:hover {
+    width: 200px;
+    background: #fff;
+    color: var(--brand_color);
+}
+
+.banner_options {
+    width: 795px;
+    height: 130px;
+    background: #fff;
+    padding: 24px 27px;
+    border-radius: 10px;
+}
+
+.banner_options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option_head {
+    display: flex;
+    align-items: center;
+}
+
+.option_icon {
+    color: var(--brand_color);
+}
+
+.option_text h2 {
+    font-size: 20px;
+    font-family: var(--nunito);
+    font-weight: 700;
+    color: 292929;
+    padding-left: 11px;
+    padding-right: 20px;
+}
+
+.option_arrow {
+    color: #6A6A6A;
+}
+
+.option_input input {
+    margin-top: 8px;
+    margin-left: 30px;
+    border: none;
+}
+
+.option_input input::placeholder {
+    font-size: 16px;
+    font-family: var(--nunito);
+    font-weight: 400;
+    color: #6A6A6A;
+}
+
+.search_button a {
+    width: 82px;
+    height: 82px;
+    border-radius: 10px;
+    background: var(--brand_color);
+    text-align: center;
+    line-height: 82px;
+    color: #fff;
+    transition: all linear .3s;
+}
+
+.search_button a:hover {
+    border: 1px solid var(--brand_color);
+    background: transparent;
+    color: var(--brand_color);
+}
+
+/* ------------ banner css part end ------------ */
+/* =========== travel benefit  css part start =========== */
+#travel_benefit {
+    padding: 150px 0;
+}
+
+.travel_benefit_head h2 {
+    font-size: 40px;
+    font-family: var(--poppins);
+    font-weight: 600;
+    color: #1e1e1e;
+    text-align: center;
+}
+
+.travel_benefit_head p {
+    width: 657px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: var(--poppins);
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--Paragraph-Color);
+    padding-top: 20px;
+    padding-bottom: 112px;
+}
+
+.benefit_card {
+    width: 422px;
+    padding: 79px 104px 47px 44px;
+    transition: all linear .3s;
+}
+
+.benefit_card:hover {
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.benefit_card_icon {
+    width: 84px;
+    height: 78px;
+    border-radius: 14px;
+    background: rgba(0, 127, 95, 0.10);
+    text-align: center;
+    line-height: 78px;
+    margin-bottom: 39px;
+}
+
+.benefit_card_text h2 {
+    font-size: 25px;
+    font-weight: var(--poppins);
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.benefit_card_text p {
+    font-size: 16px;
+    font-family: var(--poppins);
+    font-weight: 400;
+    color: var(--Paragraph-Color);
+}
+
+/* ------------ travel benefit  css part end ------------ */
+/* =========== popular destination css part start =========== */
+#popular_destination {
+    padding-bottom: 152px;
+}
+
+.destination_head h2 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--Primary-Color);
+    text-align: center;
+}
+
+.destination_head p {
+    width: 692px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--Paragraph-Color);
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 71px;
+}
+
+.destination_slider_item {
+    width: 370px;
+    border-radius: 17px;
+    padding: 21px 20px 42px 21px;
+}
+
+.destination_slider_image {
+    width: 100%;
+}
+
+.destination_slider_image {
+    overflow: hidden;
+    border-radius: 14px;
+}
+
+.destination_slider_review ul {
+    margin-top: 31px;
+    margin-bottom: 17px;
+    display: flex;
+    gap: 6px;
+}
+
+.destination_slider_review ul li i {
+    color: #FF8B00;
+}
+
+.destination_slider_review ul li p {
+    color: #FF8B00;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+}
+
+.destination_slider_text h2 {
+    font-size: 25px;
+    font-family: 500;
+    font-family: var(--poppins);
+    color: var(--Primary-Color);
+}
+
+.destination_slider_text p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--Paragraph-Color);
+    line-height: 30px;
+    padding: 20px 0;
+}
+
+.destination_slider_price p {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--Primary-Color);
+    margin-bottom: 30px;
+}
+
+.destination_slider_price p span {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--Paragraph-Color);
+}
+
+.destination_slider_button a {
+    width: 150px;
+    height: 48px;
+    border-radius: 17px;
+    border: 1px solid var(--brand_color);
+    text-align: center;
+    line-height: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+    transition: all linear .3s;
+}
+
+.slick-center {
+    border-radius: 17px;
+    margin: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.slick-center .destination_slider_button a {
+    background: var(--brand_color);
+    color: #fff;
+
+}
+
+/* ------------ popular destination css part end ------------ */
+/* =========== discover remember css part start =========== */
+#discover_remember {
+    background: rgba(30, 30, 30, 0.05);
+    /* opacity: 5%; */
+    padding-top: 148px;
+    padding-bottom: 152px;
+}
+
+.discover_remember_head h2 {
+    width: 418px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--Primary-Color);
+}
+
+.discover_remember_head p {
+    width: 507px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--Paragraph-Color);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.discover_remember_list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.discover_remember_list ul li {
+    display: flex;
+    gap: 10px;
+}
+
+.discover_remember_list ul li i {
+    color: var(--brand_color);
+    font-size: 20px;
+}
+
+.discover_remember_list ul li p {
+    width: 338px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--Paragraph-Color);
+}
+
+.discover_remember_button a {
+    width: 189px;
+    height: 56px;
+    border-radius: 17px;
+    background: var(--brand_color);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #fff;
+    text-align: center;
+    line-height: 56px;
+    margin-top: 56px;
+    transition: all linear .3s;
+}
+
+.discover_remember_button a:hover {
+    border: 1px solid var(--brand_color);
+    background: none;
+    color: var(--brand_color);
+    transform: scale(1.1);
+}
+
+.counter_part {
+    align-items: center;
+}
+
+.counter_items {
+    gap: 30px;
+}
+
+.counter_item {
+    width: 270px;
+    padding: 62px 32px;
+    background: #fff;
+    border-radius: 17px;
+    transition: all linear .3s;
+}
+
+.counter_item:hover {
+    background: var(--brand_color);
+}
+
+.counter_icon {
+    width: 74px;
+    height: 78px;
+    background: rgba(0, 128, 96, 0.10);
+    border-radius: 14px;
+    text-align: center;
+    line-height: 78px;
+    color: var(--brand_color);
+}
+
+.counter_item:hover .counter_icon {
+    background: #fff;
+    color: var(--brand_color);
+}
+
+.counter_text h2 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--Primary-Color);
+    margin-top: 20px;
+}
+
+.counter_text p {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--Paragraph-Color);
+}
+
+.counter_item:hover .counter_text h2 {
+    color: #fff;
+}
+
+.counter_item:hover .counter_text p {
+    color: #fff;
+}
+
+/* ------------ discover remember css part end ------------ */
+/* =========== selected destination css part start =========== */
+#selected_destination {
+    padding-top: 149px;
+    padding-bottom: 140px;
+}
+
+.destination_one_text {
+    margin-top: 123px;
+}
+
+.common_destination_head h2 {
+    width: 507px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--Primary-Color);
+}
+
+.common_destination_head p {
+    width: 516px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--Paragraph-Color);
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.destination_one_button a {
+    width: 225px;
+    height: 56px;
+    background: var(--brand_color);
+    border-radius: 17px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #fff;
+    transition: all linear .3s;
+}
+
+.destination_one_button a:hover {
+    background: none;
+    border: 1px solid var(--brand_color);
+    color: var(--brand_color);
+}
+
+.destination_one_photo {
+    width: 570px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.search_destination {
+    position: absolute;
+    top: 74%;
+    left: 0;
+}
+
+.search_destination ul li {
+    width: 350px;
+    height: 52px;
+    background: #fff;
+    padding: 12px 16px;
+    border-radius: 8px 8px 0 0;
+}
+
+.search_destination ul li span {
+    margin-right: 12px;
+    color: var(--brand_color);
+}
+
+.search_destination ul li input {
+    width: 220px;
+    border: none;
+    font-weight: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #616161;
+}
+
+.search_destination ul li input::placeholder {
+    font-weight: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #616161;
+}
+
+.search_destination .list_item {
+    width: 350px;
+    height: 42px;
+    border-radius: 8px;
+    padding: 10px 23px 10px 43px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_item p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--Open_Sans);
+    color: var(--Paragraph-Color);
+}
+
+.list_item:hover {
+    box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.05);
+}
+
+.list_item:hover p {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--Open_Sans);
+}
+
+.destination_two_text {
+    margin-top: 101px;
+}
+
+.destination_two_photo {
+    width: 570px;
+    margin-bottom: 100px;
+}
+
+.destination_two_list {
+    display: flex;
+    gap: 15px;
+}
+
+.list_one ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.list_one ul li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.list_one ul li span i {
+    color: var(--brand_color);
+    font-size: 16px;
+}
+
+.list_one ul li p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--Paragraph-Color);
+}
+.destination_three_photo{
+    width: 570px;
+    position: relative;
+}
+
+.destination_three_list{
+    position: absolute;
+    top: 67%;
+    left: 50px;
+}
+
+.destination_three_list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.destination_three_list ul .list_1{
+    width: 232px;
+    height: 52px;
+    padding: 12px 25px 12px 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 12px 16px 0px rgba(0, 0, 0, 0.08);
+}
+.destination_three_list ul .list_2{
+    width: 244px;
+    height: 52px;
+    padding: 12px 25px 12px 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 12px 16px 0px rgba(0, 0, 0, 0.08);
+    margin-left: 50px;
+}
+.destination_three_list ul .list_3{
+    width: 310px;
+    height: 52px;
+    padding: 12px 20px 12px 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 12px 16px 0px rgba(0, 0, 0, 0.08);
+}
+.destination_three_list ul li p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--Open_Sans);
+    color: var(--Paragraph-Color);
+}
+/* ------------ selected destination link css part end ------------ */
+/* =========== fonts link css part start =========== */
+
+
+
+
+/* ------------ fonts link css part end ------------ */
+/* =========== fonts link css part start =========== */
+
+
+
+
+/* ------------ fonts link css part end ------------ */
