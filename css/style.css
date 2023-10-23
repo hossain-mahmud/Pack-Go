@@ -377,7 +377,7 @@ ol {
 
 .slick-center {
     border-radius: 17px;
-    margin: 20px 0;
+    margin-bottom: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -627,6 +627,7 @@ ol {
     font-weight: 400;
     font-family: var(--Open_Sans);
     color: var(--Paragraph-Color);
+    transition:  all linear .3s;
 }
 
 .list_item:hover {
@@ -698,7 +699,7 @@ ol {
     height: 20px;
     border-radius: 50%;
     background: transparent;
-    border: 1px solid var(--brand_color);
+    border: 2px solid var(--Paragraph-Color);
     margin-right: 11px;
 }
 
