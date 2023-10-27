@@ -1067,7 +1067,7 @@ ol {
 
 .email_address_input {
     width: 770px;
-    padding: 9px 11px  9px 23px;
+    padding: 9px 11px 9px 23px;
     background: #fff;
     border-radius: 17px;
     margin: 0 auto;
@@ -1075,7 +1075,8 @@ ol {
     align-items: center;
     justify-content: space-between;
 }
-.email_address_input button{
+
+.email_address_input button {
     width: 159px;
     height: 82px;
     border-radius: 17px;
@@ -1087,46 +1088,75 @@ ol {
     color: #fff;
     transition: all linear .3s;
 }
-.email_address_input input{
+
+.email_address_input input {
     font-size: 16px;
     font-weight: 400;
     font-family: var(--poppins);
     color: #9D9D9D;
     border: none;
 }
-.email_address_input input::placeholder{
-   font-size: 16px;
+
+.email_address_input input::placeholder {
+    font-size: 16px;
     font-weight: 400;
     font-family: var(--poppins);
-    color: #9D9D9D; 
+    color: #9D9D9D;
 }
-.email_address_input button:hover{
+
+.email_address_input button:hover {
     background: transparent;
     border: 2px solid var(--brand_color);
     color: var(--brand_color);
 }
+
 /* ------------ subscribe css part end ------------ */
-/* =========== testimonial css part start =========== */
+/* =========== footer css part start =========== */
+#footer_part {
+    padding: 142px 0;
+}
 
+.footer_logo img {
+    width: 214px;
+}
 
+.footer_icon ul {
+    display: flex;
+    gap: 40px;
+}
 
+.footer_icon ul li a {
+    width: 48px;
+    margin-bottom: 43px;
+}
 
-/* ------------ testimonial css part end ------------ */
-/* =========== testimonial css part start =========== */
+.footer_text p {
+    width: 334px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--Paragraph-Color);
+}
 
+.page_list_head h3 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--Primary-Color);
+    margin-bottom: 31px;
+}
 
+.page_list_items ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
 
+.page_list_items ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--Paragraph-Color);
+}
 
-/* ------------ testimonial css part end ------------ */
-/* =========== testimonial css part start =========== */
-
-
-
-
-/* ------------ testimonial css part end ------------ */
-/* =========== testimonial css part start =========== */
-
-
-
-
-/* ------------ testimonial css part end ------------ */
+/* ------------ footer css part end ------------ */
