@@ -786,9 +786,10 @@ ol {
 
 /* ------------ selected destination link css part end ------------ */
 /* =========== explore css part start =========== */
-#explore{
+#explore {
     padding-bottom: 150px;
 }
+
 .explore_head h2 {
     font-size: 40px;
     font-weight: 600;
@@ -805,6 +806,7 @@ ol {
     color: var(--Paragraph-Color);
     margin: 20px 0;
 }
+
 .nav-tabs {
     --bs-nav-tabs-border-width: none;
     --bs-nav-link-hover-color: none;
@@ -840,14 +842,16 @@ ol {
     width: 329px;
     overflow: hidden;
 }
-.navtab_card_image{
+
+.navtab_card_image {
     position: relative;
 }
-.heart_icon{
+
+.heart_icon {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background:#fff;
+    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -856,13 +860,16 @@ ol {
     right: 16px;
     transition: all linear .3s;
 }
-.heart_icon i{
-    color:#FF5A5F;
+
+.heart_icon i {
+    color: #FF5A5F;
 }
-.heart_icon:hover{
+
+.heart_icon:hover {
     transform: scale(1.1);
 }
-.navtab_card_review p{
+
+.navtab_card_review p {
     margin-top: 30px;
     margin-bottom: 10px;
     color: #FF8B00;
@@ -870,46 +877,55 @@ ol {
     font-weight: 400;
     font-family: var(--poppins);
 }
-.navtab_card_review p span{
+
+.navtab_card_review p span {
     margin-right: 7px;
 }
-.navtab_card_text h2{
+
+.navtab_card_text h2 {
     font-size: 25px;
     font-weight: 500;
     font-family: var(--poppins);
     color: var(--Primary-Color);
 }
-.navtab_card_text p{
+
+.navtab_card_text p {
     width: 324px;
     font-size: 16px;
     font-weight: 400;
-    font-family:var(--poppins);
-    font-size:var(--Paragraph-Color);
+    font-family: var(--poppins);
+    font-size: var(--Paragraph-Color);
     margin-top: 20px;
     margin-bottom: 14px;
 }
-.navtab_card_location p{
+
+.navtab_card_location p {
     font-size: 20px;
     font-weight: 500;
     font-family: var(--poppins);
     color: var(--Paragraph-Color);
 }
+
 .navtab_card_location p span {
     margin-right: 6px;
 }
-.nav_tab_cards .slick-slide{
+
+.nav_tab_cards .slick-slide {
     margin: 0 20px;
 }
-.nav_tab_cards .slick-center{
+
+.nav_tab_cards .slick-center {
     margin-bottom: 10px;
 }
-.nav_tab_cards .slick-dots{
+
+.nav_tab_cards .slick-dots {
     margin-top: 42px;
     display: flex;
     justify-content: center;
     gap: 14px;
 }
-.nav_tab_cards .slick-dots li button{
+
+.nav_tab_cards .slick-dots li button {
     width: 11px;
     height: 11px;
     border-radius: 50%;
@@ -917,61 +933,72 @@ ol {
     border: none;
     font-size: 0;
 }
-.nav_tab_cards .slick-dots .slick-active button{
+
+.nav_tab_cards .slick-dots .slick-active button {
     background: var(--brand_color);
     transform: scale(1.2);
 }
+
 /* ------------ explore link css part end ------------ */
 /* =========== testimonial css part start =========== */
-#testimonial{
+#testimonial {
     padding-bottom: 230px;
 }
-.testimonial_images{
+
+.testimonial_images {
     position: relative;
 }
-.testimonial_imgae_1 img{
+
+.testimonial_imgae_1 img {
     width: 114px;
     position: absolute;
-    top:0 ;
+    top: 0;
     right: 93px;
 }
-.testimonial_imgae_2 img{
+
+.testimonial_imgae_2 img {
     width: 80px;
     position: absolute;
     top: 204px;
     left: 293px;
 }
-.testimonial_imgae_3 img{
+
+.testimonial_imgae_3 img {
     width: 123px;
     position: absolute;
     top: 228px;
-    left:0;
+    left: 0;
 }
-.testimonial_imgae_4 img{
+
+.testimonial_imgae_4 img {
     width: 107px;
     position: absolute;
     top: 417px;
-    left:228px;
+    left: 228px;
 }
-.testimonial_imgae_5 img{
+
+.testimonial_imgae_5 img {
     width: 84px;
     position: absolute;
     top: 354px;
-    right:62px;
+    right: 62px;
 }
-.testimonial_head_text h2{
+
+.testimonial_head_text h2 {
     margin-top: 114px;
     font-size: 40px;
     font-weight: 600;
     font-family: var(--poppins);
     color: var(--Primary-Color);
 }
-.quote_icon{
+
+.quote_icon {
     margin-top: 41px;
     margin-bottom: 24px;
     width: 45px;
 }
-.testimonial_review_text p{
+
+.testimonial_review_text p {
     width: 538px;
     font-size: 16px;
     line-height: 30px;
@@ -980,17 +1007,20 @@ ol {
     color: var(--Paragraph-Color);
     margin-bottom: 24px;
 }
-.testimonial_review_customer h3{
+
+.testimonial_review_customer h3 {
     font-size: 20px;
     font-weight: 600;
     font-family: var(--poppins);
     color: var(--Primary-Color);
 }
-.testimonial_review_part .slick-dots{
+
+.testimonial_review_part .slick-dots {
     display: flex;
-    gap:10px;
+    gap: 10px;
 }
-.testimonial_review_part .slick-dots li button{
+
+.testimonial_review_part .slick-dots li button {
     border: none;
     font-size: 0;
     height: 8px;
@@ -998,17 +1028,84 @@ ol {
     border-radius: 50%;
     background: #C4C4C4;
 }
-.testimonial_review_part .slick-dots .slick-active button{
+
+.testimonial_review_part .slick-dots .slick-active button {
     transform: scale(1.1);
     background: var(--brand_color);
 }
-/* ------------ testimonial css part end ------------ */
-/* =========== testimonial css part start =========== */
-
-
-
 
 /* ------------ testimonial css part end ------------ */
+/* =========== subscribe css part start =========== */
+#subscribe {
+    background: url(../images/subscribe_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+.subscribe_head_text h2 {
+    width: 652px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #fff;
+    margin: 0 auto;
+}
+
+.subscribe_head_text p {
+    width: 565px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #fff;
+    padding: 20px 0 52px 0;
+}
+
+.email_address_input {
+    width: 770px;
+    padding: 9px 11px  9px 23px;
+    background: #fff;
+    border-radius: 17px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.email_address_input button{
+    width: 159px;
+    height: 82px;
+    border-radius: 17px;
+    border: none;
+    background: var(--brand_color);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #fff;
+    transition: all linear .3s;
+}
+.email_address_input input{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #9D9D9D;
+    border: none;
+}
+.email_address_input input::placeholder{
+   font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #9D9D9D; 
+}
+.email_address_input button:hover{
+    background: transparent;
+    border: 2px solid var(--brand_color);
+    color: var(--brand_color);
+}
+/* ------------ subscribe css part end ------------ */
 /* =========== testimonial css part start =========== */
 
 
