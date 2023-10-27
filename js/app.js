@@ -37,3 +37,6 @@ $('.testimonial_review_part').slick({
   dots:true,
 })
 // testimonial part end
+// aow animation start
+AOS.init();
+// aow animation end
