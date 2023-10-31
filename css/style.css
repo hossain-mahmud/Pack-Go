@@ -51,7 +51,9 @@ ol {
 .navbar-nav {
     gap: 10px;
 }
-
+.navbar-brand{
+    width: 214px;
+}
 .main_menu ul li a {
     font-size: 16px;
     font-family: var(--poppins);
