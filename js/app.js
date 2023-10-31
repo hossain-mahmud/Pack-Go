@@ -40,3 +40,33 @@ $('.testimonial_review_part').slick({
 // aow animation start
 AOS.init();
 // aow animation end
+
+
+var swiper = new Swiper(".mySwiper", {
+  autoplay: {
+    delay: 2000,
+  },
+  slidesPerView: 3,
+  spaceBetween: 30,
+  centeredSlides: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+
+// nav and back to top button fiexd start
+
+
+let mainMenu = document.querySelector('.main_menu')
+window.addEventListener('scroll',()=>{
+  let scrooling = this.scrollY;
+
+  if(scrooling > 150){
+    mainMenu.classList.add('nav_fiexd');
+  }
+  else{
+    mainMenu.classList.remove('nav_fiexd')
+  }
+  }
+)
