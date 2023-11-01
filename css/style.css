@@ -51,9 +51,11 @@ ol {
 .navbar-nav {
     gap: 10px;
 }
-.navbar-brand{
+
+.navbar-brand {
     width: 214px;
 }
+
 .main_menu ul li a {
     font-size: 16px;
     font-family: var(--poppins);
@@ -433,7 +435,6 @@ ol {
 /* =========== discover remember css part start =========== */
 #discover_remember {
     background: rgba(30, 30, 30, 0.05);
-    /* opacity: 5%; */
     padding-top: 148px;
     padding-bottom: 152px;
 }
@@ -947,18 +948,22 @@ ol {
     font-family: var(--poppins);
     color: var(--Paragraph-Color);
 }
+
 .navtab_card_location p span {
     margin-right: 6px;
 }
+
 .swiper-slide {
     flex-shrink: 1;
     margin: 10px 0;
     border-radius: 25px;
 }
+
 .swiper-pagination {
     position: static;
     margin-top: 50px;
 }
+
 .swiper-pagination-bullet {
     margin-top: 30px;
     width: 11px;
