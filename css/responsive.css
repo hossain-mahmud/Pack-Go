@@ -341,10 +341,10 @@
 		width: 100%;
 		font-size: 15px;
 	}
-
-
-
-
+	.nav_button li button {
+		padding: 15px 10px;
+		font-size: 14px;
+	}
 	/* ------------ explore css part end ------------ */
 	/* =========== explore css part start =========== */
 
