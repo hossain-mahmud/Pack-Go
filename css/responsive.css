@@ -345,6 +345,12 @@
 		padding: 15px 10px;
 		font-size: 14px;
 	}
+	.navtab_card {
+		width: 100%;
+	}
+	.navtab_card_text h2 {
+		font-size: 21px;
+	}
 	/* ------------ explore css part end ------------ */
 	/* =========== explore css part start =========== */
 

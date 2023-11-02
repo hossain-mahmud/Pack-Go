@@ -64,8 +64,6 @@ $('.testimonial_review_part').slick({
 // aow animation start
 AOS.init();
 // aow animation end
-
-
 var swiper = new Swiper(".mySwiper", {
   autoplay: {
     delay: 2000,
@@ -78,10 +76,7 @@ var swiper = new Swiper(".mySwiper", {
     clickable: true,
   },
 });
-
 // nav and back to top button fiexd start
-
-
 let mainMenu = document.querySelector('.main_menu')
 window.addEventListener('scroll',()=>{
   let scrooling = this.scrollY;
