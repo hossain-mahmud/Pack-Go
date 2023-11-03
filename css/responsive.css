@@ -352,32 +352,79 @@
 		font-size: 21px;
 	}
 	/* ------------ explore css part end ------------ */
-	/* =========== explore css part start =========== */
-
-
-
-
-
-	/* ------------ explore css part end ------------ */
-	/* =========== explore css part start =========== */
-
-
-
-
-
-	/* ------------ explore css part end ------------ */
-	/* =========== discover remember css part start =========== */
-
-
-
-
-
-	/* ------------ discover remember css part end ------------ */
-
-
-
-
-
+	/* =========== testimonial css part start =========== */
+	#testimonial {
+		padding-bottom: 95px;
+	}
+	.testimonial_images {
+		display: none;
+	}
+	.testimonial_head_text h2 {
+		margin-top: 0px;
+		font-size: 35px;
+	}
+	.quote_icon {
+		width: 34px;
+	}
+	.testimonial_review_text p {
+		width: 100%;
+		font-size: 15px;
+	}
+	.testimonial_review_customer h3 {
+		font-size: 18px;
+	}
+	/* ------------ testimonial css part end ------------ */
+	/* =========== subscribe css part start =========== */
+	#subscribe {
+		padding: 55px 0;
+	}
+	.subscribe_head_text h2 {
+		width: 100%;
+		font-size: 27px;
+	}
+	.subscribe_head_text p {
+		width: 100%;
+		font-size: 15px;
+	}
+	.email_address_input {
+		width: 100%;
+		padding: 31px 0px 31px 0px;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 40px;
+	}
+	.email_address_input input::placeholder {
+		font-size: 18px;
+		text-align: center;
+	}
+	.email_address_input button {
+		width: 131px;
+		height: 51px;
+		border-radius: 30px;
+		font-size: 15px;
+	}
+	/* ------------ subscribe css part end ------------ */
+	/* =========== footer css part start =========== */
+	#footer_part {
+		padding: 70px 0;
+	}
+	.footer_logo img {
+		width: 160px;
+	}
+	.footer_icon ul {
+		gap: 18px;
+	}
+	.footer_icon ul li a {
+		width: 34px;
+		margin: 20px 0;
+	}
+	.footer_text ul {
+		margin-bottom: 30px;
+	}
+	.page_list_head h3 {
+		margin: 20px 0 10px 0;
+	}
+	/* ------------ footer css part end ------------ */
 }
 
 
