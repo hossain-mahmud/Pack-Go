@@ -1170,16 +1170,16 @@ ol {
     width: 48px;
     margin-bottom: 43px;
 }
-
-.footer_text p {
+.footer_text ul{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.footer_text ul li a {
     width: 334px;
     font-size: 16px;
     font-weight: 400;
     font-family: var(--poppins);
-    color: var(--Paragraph-Color);
-}
-
-.footer_text p a {
     color: var(--Paragraph-Color);
 }
 
