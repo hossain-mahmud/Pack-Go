@@ -1153,7 +1153,7 @@ ol {
 
 /* ------------ subscribe css part end ------------ */
 /* ===========  back to top css part start =========== */
-.bac_to_top {
+.bac_to_top{
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
@@ -1162,12 +1162,18 @@ ol {
 	justify-content: center;
 	align-items: center;
 	color: #fff;
+    transition: all linear .3s;
+    cursor: pointer;
 	position: absolute;
 	right: 4%;
 	bottom: 4%;
 	z-index: 999;
     visibility: hidden;
     opacity: 0;
+}
+.bac_to_top:hover{
+    background: #01664d;
+    transform: scale(1.1) rotate(360deg);
 }
 .fiexd_backTop{
     position: fixed;
