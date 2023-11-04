@@ -426,14 +426,433 @@
 	}
 	/* ------------ footer css part end ------------ */
 }
-
-
-
-/* ------ extra Small device responsive start ------   */
+/* ------ extra Small device responsive end ------   */
 /* ====== Small device responsive start ======  */
+@media (min-width: 576px) and (max-width: 767.98px) {
 
+	/* =========== main menu css part start =========== */
+	.navbar-brand {
+		width: 175px;
+	}
 
+	.navbar {
+		padding: 10px;
+	}
 
+	.navbar-nav {
+		text-align: center;
+	}
+
+	.main_menu .menu_button {
+		text-align: center;
+	}
+
+	.navbar-collapse {
+		background: var(--brand_color);
+		padding: 25px;
+		border-radius: 10px;
+	}
+
+	.main_menu ul li a {
+		color: #fff !important;
+	}
+
+	.main_menu ul li a:hover {
+		color: #fff !important;
+	}
+
+	.main_menu ul li a::after {
+		background: #fff !important;
+	}
+
+	.main_menu .menu_button a {
+		width: 130px;
+		height: 50px;
+		background: #fff;
+		line-height: 50px;
+		color: var(--brand_color);
+		border: 2px solid #fff;
+	}
+
+	.main_menu .menu_button a:hover {
+		color: #fff;
+	}
+
+	/* ------------ main menu css part end ------------ */
+	/* =========== banner css part start =========== */
+	#banner {
+		padding-top: 66px;
+		padding-bottom: 100px;
+
+	}
+
+	#banner .banner_text h1 {
+		width: 100%;
+		font-size: 40px;
+	}
+
+	#banner .banner_text p {
+		width: 100%;
+		font-size: 16px;
+	}
+
+	.banner_button a {
+		margin-top: 20px;
+		width: 150px;
+		height: 52px;
+		font-size: 15px;
+		line-height: 52px;
+	}
+
+	.banner_button a:hover {
+		width: 150px;
+	}
+
+	.banner_options {
+		width: 100%;
+		height: auto;
+		background: #fff;
+		padding: 24px 27px;
+		border-radius: 10px;
+		flex-direction: column;
+		align-items: center;
+		gap: 30px;
+	}
+
+	.option_text h2 {
+		font-size: 18px;
+	}
+
+	.search_button a {
+		width: 70px;
+		height: 70px;
+		line-height: 70px;
+	}
+
+	/* ------------ banner css part end ------------ */
+	/* =========== travel benefit css part start =========== */
+	#travel_benefit {
+		padding: 75px 0;
+	}
+
+	.travel_benefit_head h2 {
+		font-size: 29px;
+	}
+
+	.travel_benefit_head p {
+		width: 100%;
+		font-size: 16px;
+	}
+
+	.benefit_card {
+		width: 100%;
+		padding: 20px 88px 23px 31px;
+		margin-top: 10px;
+	}
+
+	.benefit_card_text h2 {
+		font-size: 23px;
+	}
+
+	.benefit_card_text p {
+		font-size: 16px;
+	}
+
+	/* ------------ travel benefit css part end ------------ */
+	/* =========== popular destination css part start =========== */
+	#popular_destination {
+		padding-bottom: 77px;
+	}
+
+	.destination_head h2 {
+		font-size: 29px;
+	}
+
+	.destination_head p {
+		width: 100%;
+		font-size: 16px;
+		margin-bottom: 30px;
+	}
+
+	.destination_slider_text h2 {
+		font-size: 21px;
+	}
+
+	.destination_slider_text p {
+		font-size: 16px;
+	}
+
+	.destination_slider_button a {
+		width: 135px;
+		height: 45px;
+		line-height: 45px;
+	}
+
+	/* ------------ popular destination css part end ------------ */
+	/* =========== discover remember css part start =========== */
+	#discover_remember {
+		padding: 90px 0;
+	}
+
+	.discover_remember_head h2 {
+		width: 100%;
+		font-size: 29px;
+	}
+
+	.discover_remember_head p {
+		width: 100%;
+		font-size: 16px;
+		padding-bottom: 15px;
+	}
+
+	.discover_remember_list ul li p {
+		width: 100%;
+		font-size: 16px;
+	}
+
+	.discover_remember_button a {
+		width: 148px;
+		height: 54px;
+		border-radius: 60px;
+		line-height: 54px;
+		margin-top: 16px;
+		margin-bottom: 20px;
+	}
+	.counter_item {
+		width: 226px;
+		padding: 23px 20px;
+		margin: 0 auto;
+		gap: 10px;
+	}
+	.counter_icon {
+		width: 65px;
+		height: 66px;
+		line-height: 66px;
+	}
+
+	.counter_text h2 {
+		font-size: 30px;
+	}
+
+	.counter_text p {
+		font-size: 20px;
+	}
+
+	/* ------------ discover remember css part end ------------ */
+	/* =========== selected destination css part start =========== */
+	#selected_destination {
+		padding-top: 0px;
+		padding-bottom: 140px;
+	}
+
+	.destination_one_text {
+		margin-top: 55px;
+	}
+
+	.common_destination_head h2 {
+		width: 100%;
+		font-size: 29px;
+	}
+
+	.common_destination_head p {
+		width: 100%;
+		font-size: 16px;
+	}
+
+	.destination_one_button a {
+		width: 180px;
+		height: 52px;
+		font-size: 16px;
+		margin-bottom: 30px;
+	}
+
+	.destination_one_photo {
+		width: 100%;
+	}
+
+	.search_destination ul li {
+		width: 100%;
+	}
+
+	.search_destination .list_item {
+		width: 100%;
+	}
+
+	.list_item p {
+		font-size: 16px;
+	}
+
+	.destination_two_photo {
+		width: 100%;
+		margin-bottom: 0;
+		margin-top: 30px;
+	}
+
+	.destination_two_text {
+		margin-top: 40px;
+	}
+
+	.destination_two_list {
+		flex-wrap: wrap;
+		margin-bottom: 20px;
+	}
+
+	.list_one ul li p {
+		font-size: 16px;
+	}
+
+	.accordion-item {
+		width: 100%;
+	}
+
+	.circle {
+		width: 18px;
+		height: 18px;
+	}
+
+	.accordion-button {
+		font-size: 18px;
+	}
+
+	.accordion_text {
+		width: 100%;
+		font-size: 16px;
+	}
+
+	.destination_three_photo {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.destination_three_list {
+		left: 0px;
+	}
+
+	.destination_three_list ul .list_1 {
+		width: 100%;
+	}
+
+	.destination_three_list ul .list_1 p {
+		font-size: 16px;
+	}
+
+	.destination_three_list ul .list_2 {
+		width: 100%;
+	}
+
+	.destination_three_list ul .list_2 p {
+		font-size: 16px;
+	}
+
+	.destination_three_list ul .list_3 {
+		width: 100%;
+	}
+
+	.destination_three_list ul .list_3 p {
+		font-size: 16px;
+	}
+
+	/* ------------ selected destination css part end ------------ */
+	/* =========== explore css part start =========== */
+	#explore {
+		padding-bottom: 100px;
+	}
+	.explore_head h2 {
+		font-size: 29px;
+	}
+	
+	.explore_head p {
+		width: 100%;
+		font-size: 16px;
+	}
+	.nav_button li button {
+		padding: 18px 34px;
+		font-size: 15px;
+	}
+	.nav-tabs {
+		margin-bottom: 26px;
+	}
+	.navtab_card {
+		width: 100%;
+	}
+	.navtab_card_text h2 {
+		font-size: 22px;
+	}
+	/* ------------ explore css part end ------------ */
+	/* =========== testimonial css part start =========== */
+	#testimonial {
+		padding-bottom: 95px;
+	}
+	.testimonial_images {
+		display: none;
+	}
+	.testimonial_head_text h2 {
+		margin-top: 0px;
+		font-size: 40px;
+	}
+	.quote_icon {
+		width: 35px;
+	}
+	.testimonial_review_text p {
+		width: 100%;
+		font-size: 16px;
+	}
+	.testimonial_review_customer h3 {
+		font-size: 19px;
+	}
+	/* ------------ testimonial css part end ------------ */
+	/* =========== subscribe css part start =========== */
+	#subscribe {
+		padding: 100px 0;
+	}
+	.subscribe_head_text h2 {
+		width: 100%;
+		font-size: 29px;
+	}
+	.subscribe_head_text p {
+		width: 100%;
+		font-size: 16px;
+	}
+	.email_address_input {
+		width: 100%;
+		padding: 15px 0;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 40px;
+	}
+	.email_address_input input::placeholder {
+		font-size: 20px;
+		text-align: center;
+	}
+	.email_address_input button {
+		width: 140px;
+		height: 52px;
+		border-radius: 30px;
+		font-size: 16px;
+	}
+	/* ------------ subscribe css part end ------------ */
+	/* =========== footer css part start =========== */
+	#footer_part {
+		padding: 70px 0;
+	}
+	.footer_logo img {
+		width: 185px;
+	}
+	.footer_icon ul {
+		gap: 18px;
+	}
+	.footer_icon ul li a {
+		width: 34px;
+		margin: 20px 0;
+	}
+	.footer_text ul {
+		margin-bottom: 30px;
+	}
+	.page_list_head h3 {
+		margin: 20px 0 10px 0;
+	}
+	/* ------------ footer css part end ------------ */
+}
 
 /* ------ Small device responsive start ------   */
 /* ====== Small device responsive start ======  */
