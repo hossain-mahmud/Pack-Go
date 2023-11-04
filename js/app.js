@@ -78,14 +78,17 @@ var swiper = new Swiper(".mySwiper", {
 });
 // nav and back to top button fiexd start
 let mainMenu = document.querySelector('.main_menu')
+let backTop = document.querySelector('.bac_to_top')
 window.addEventListener('scroll',()=>{
   let scrooling = this.scrollY;
 
   if(scrooling > 150){
     mainMenu.classList.add('nav_fiexd');
+    backTop.classList.add('fiexd_backTop')
   }
   else{
     mainMenu.classList.remove('nav_fiexd')
+    backTop.classList.remove('fiexd_backTop')
   }
   }
 )
